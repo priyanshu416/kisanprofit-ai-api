@@ -122,4 +122,4 @@ def delete_benefit(benefit_id: str):
     if benefit_id not in benefits:
         return {"error": "Benefit entry not found"}
     del benefits[benefit_id]
-    return {"deleted": True}\n
+    return {"deleted": True}
